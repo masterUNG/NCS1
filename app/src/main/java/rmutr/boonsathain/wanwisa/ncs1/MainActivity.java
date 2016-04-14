@@ -2,8 +2,8 @@ package rmutr.boonsathain.wanwisa.ncs1;
 
 import android.database.sqlite.SQLiteDatabase;
 import android.os.AsyncTask;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
@@ -11,6 +11,9 @@ import android.widget.EditText;
 import com.squareup.okhttp.OkHttpClient;
 import com.squareup.okhttp.Request;
 import com.squareup.okhttp.Response;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -74,6 +77,27 @@ public class MainActivity extends AppCompatActivity {
             super.onPostExecute(strJSON);
 
             Log.d("14April", "strJSON ==> " + strJSON);
+
+            try {
+
+                JSONArray jsonArray = new JSONArray(strJSON);
+                for (int i = 0; i < jsonArray.length(); i++) {
+
+                    JSONObject jsonObject = jsonArray.getJSONObject(i);
+                    String strUser = jsonObject.getString(MyManage.column_User);
+                    String strPassword = jsonObject.getString(MyManage.column_Pass);
+                    String strStatus = jsonObject.getString(MyManage.column_Status);
+                    String strName = jsonObject.getString(MyManage.column_Name);
+                    String strSurname = jsonObject.getString(MyManage.column_Surname);
+
+                    myManage.addNewUser(strUser, strPassword, strStatus,
+                            strName, strSurname);
+
+                }   // for
+
+            } catch (Exception e) {
+                Log.d("14April", "onPost Error ==> " + e.toString());
+            }
 
         }   // onPost
 
