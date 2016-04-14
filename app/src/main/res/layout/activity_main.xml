@@ -53,5 +53,6 @@
         android:layout_height="wrap_content"
         android:text="Login"
         android:id="@+id/button"
-        android:layout_alignParentBottom="true" />
+        android:layout_alignParentBottom="true"
+        android:onClick="clickLogin" />
 </RelativeLayout>
