@@ -10,6 +10,7 @@ public class MainActivity extends AppCompatActivity {
     //Explicit
     private EditText userEditText, passwordEditText;
     private String userString, passwordString;
+    private MyManage myManage;
 
 
     @Override
@@ -20,6 +21,10 @@ public class MainActivity extends AppCompatActivity {
         //Bind Widget
         userEditText = (EditText) findViewById(R.id.editText);
         passwordEditText = (EditText) findViewById(R.id.editText2);
+
+        //Request SQLite
+        myManage = new MyManage(this);
+
 
     }   // Main Method
 
