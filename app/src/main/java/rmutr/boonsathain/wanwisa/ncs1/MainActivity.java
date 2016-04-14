@@ -25,6 +25,9 @@ public class MainActivity extends AppCompatActivity {
         //Request SQLite
         myManage = new MyManage(this);
 
+        //Test Add User
+        //myManage.addNewUser("user", "pass", "status", "name", "surname");
+
 
     }   // Main Method
 
