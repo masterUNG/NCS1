@@ -1,5 +1,6 @@
 package rmutr.boonsathain.wanwisa.ncs1;
 
+import android.database.sqlite.SQLiteDatabase;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -28,8 +29,17 @@ public class MainActivity extends AppCompatActivity {
         //Test Add User
         //myManage.addNewUser("user", "pass", "status", "name", "surname");
 
+        //Delete All SQLite
+        deleteAllSQLite();
+
 
     }   // Main Method
+
+    private void deleteAllSQLite() {
+        SQLiteDatabase sqLiteDatabase = openOrCreateDatabase(MyOpenHelper.database_name,
+                MODE_PRIVATE, null);
+        sqLiteDatabase.delete(MyManage.user_table, null, null);
+    }
 
     public void clickLogin(View view) {
 
