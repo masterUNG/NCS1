@@ -3,4 +3,9 @@
 
     <string name="title_main">แอพตรวจเรือ</string>
 
+    <string name="hub1">รายงานเรือเข้า</string>
+    <string name="hub2">รายงานเรือออก</string>
+    <string name="hub3">ตรวจสอบ</string>
+    <string name="hub4">เพิ่มข้อมูล</string>
+
 </resources>

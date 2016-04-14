@@ -1,5 +1,6 @@
 package rmutr.boonsathain.wanwisa.ncs1;
 
+import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.AsyncTask;
@@ -149,6 +150,11 @@ public class MainActivity extends AppCompatActivity {
                 //Password True
                 Toast.makeText(this, "ยินดีต้อนรับ " + resultStrings[4] + " สู่ระบบของเรา",
                         Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, HubService.class);
+                intent.putExtra("Name", resultStrings[4]);
+                intent.putExtra("Surname", resultStrings[5]);
+                startActivity(intent);
+                finish();
 
             } else {
                 //Password False

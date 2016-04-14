@@ -9,4 +9,122 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="rmutr.boonsathain.wanwisa.ncs1.HubService">
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose Service"
+            android:id="@+id/textView2"
+            android:textSize="@dimen/h1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="login by"
+            android:id="@+id/textView3"
+            android:textSize="@dimen/h2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/textView4"
+            android:textSize="@dimen/h1"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/icon"
+            android:padding="15dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView2"
+                android:layout_weight="1"
+                android:src="@drawable/green" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView3"
+                android:layout_weight="1"
+                android:src="@drawable/blue" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/hub1"
+                android:id="@+id/textView5"
+                android:textSize="@dimen/h2"
+                android:layout_weight="1"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/hub2"
+                android:id="@+id/textView6"
+                android:textSize="@dimen/h2"
+                android:layout_weight="1"
+                android:gravity="center_horizontal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/icon"
+            android:padding="15dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView4"
+                android:layout_weight="1"
+                android:src="@drawable/green" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView5"
+                android:layout_weight="1"
+                android:src="@drawable/blue" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/hub3"
+                android:id="@+id/textView7"
+                android:textSize="@dimen/h2"
+                android:layout_weight="1"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/hub4"
+                android:id="@+id/textView8"
+                android:textSize="@dimen/h2"
+                android:layout_weight="1"
+                android:gravity="center_horizontal" />
+        </LinearLayout>
+    </LinearLayout>
 </RelativeLayout>
