@@ -8,6 +8,16 @@ import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.Spinner;
 
+import com.squareup.okhttp.Call;
+import com.squareup.okhttp.Callback;
+import com.squareup.okhttp.FormEncodingBuilder;
+import com.squareup.okhttp.OkHttpClient;
+import com.squareup.okhttp.Request;
+import com.squareup.okhttp.RequestBody;
+import com.squareup.okhttp.Response;
+
+import java.io.IOException;
+
 public class AddBoat extends AppCompatActivity {
 
     //Explicit
@@ -98,10 +108,57 @@ public class AddBoat extends AppCompatActivity {
             myAlert.myDialog(this, "มีช่องว่าง", "กรุณากรอกให้ครบ ทุกช่องคะ");
         } else {
             //No Space
+            updateDataToServer();
 
         }
 
     }   // clickSave
+
+    private void updateDataToServer() {
+
+        String strUrl = "http://swiftcodingthai.com/num/php_add_boat_master.php";
+        OkHttpClient okHttpClient = new OkHttpClient();
+        RequestBody requestBody = new FormEncodingBuilder()
+                .add("isAdd", "true")
+                .add("data2", data2String)
+                .add("data3", data3String)
+                .add("data4", data4String)
+                .add("data5", data5String)
+                .add("data6", data6String)
+                .add("data7", data7String)
+                .add("data8", data8String)
+                .add("data9", data9String)
+                .add("data10", data10String)
+                .add("data11", data11String)
+                .add("data12", data12String)
+                .add("data13", data13String)
+                .add("data14", data14String)
+                .add("data15", data15String)
+                .add("data16", data16String)
+                .build();
+        Request.Builder builder = new Request.Builder();
+        Request request = builder.url(strUrl).post(requestBody).build();
+        Call call = okHttpClient.newCall(request);
+        call.enqueue(new Callback() {
+            @Override
+            public void onFailure(Request request, IOException e) {
+
+            }
+
+            @Override
+            public void onResponse(Response response) throws IOException {
+                try {
+
+                   // Toast.makeText(AddBoat.this, "บันทึกข้อมูลสำเร็จแล้ว", Toast.LENGTH_SHORT).show();
+                    finish();
+
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+
+    }   // updateToServer
 
     private boolean checkSpace() {
 
