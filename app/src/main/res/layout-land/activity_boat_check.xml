@@ -7,6 +7,70 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="rmutr.boonsathain.wanwisa.ncs1.BoatCheck">
+    tools:context="rmutr.boonsathain.wanwisa.ncs1.BoatCheck"
+    android:background="@drawable/wall2">
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="30dp"
+        android:background="#96ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check Boat"
+            android:id="@+id/textView42"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/h2"
+            android:textStyle="bold"
+            android:textColor="@color/text" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText33"
+                android:layout_weight="2" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Search"
+                android:id="@+id/button6"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name Boat"
+                android:id="@+id/radioButton"
+                android:checked="true"
+                android:textColor="@color/text" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ID Boat"
+                android:id="@+id/radioButton2"
+                android:textColor="@color/text" />
+        </RadioGroup>
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView" />
+    </LinearLayout>
 </RelativeLayout>

@@ -7,6 +7,352 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="rmutr.boonsathain.wanwisa.ncs1.BoatOut">
+    tools:context="rmutr.boonsathain.wanwisa.ncs1.BoatOut"
+    android:background="@drawable/wall2">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2"
+        android:background="#9bffffff">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/boatout1"
+                android:id="@+id/textView25"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/text" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/boatout2"
+                    android:id="@+id/textView26"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText17"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/boatout3"
+                    android:id="@+id/textView27"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText18"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/boatout5"
+                    android:id="@+id/textView28"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="2"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText19"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/boatout6"
+                    android:id="@+id/textView29"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText20"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/boatout7"
+                    android:id="@+id/textView30"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText21"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/boatout8"
+                    android:id="@+id/textView31"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="2"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText22"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/boatout9"
+                    android:id="@+id/textView32"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText23"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/boatout10"
+                    android:id="@+id/textView33"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText24"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/boatout11"
+                    android:id="@+id/textView34"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText25"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/boatout12"
+                    android:id="@+id/textView35"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText26"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/boatout13"
+                    android:id="@+id/textView36"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText27"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/boatout14"
+                    android:id="@+id/textView37"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText28"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/boatout15"
+                    android:id="@+id/textView38"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText29"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/boatout16"
+                    android:id="@+id/textView39"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText30"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/boatout17"
+                    android:id="@+id/textView40"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText31"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/boatout18"
+                    android:id="@+id/textView41"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText32"
+                    android:layout_weight="1"
+                    android:textColor="@color/text"
+                    android:lines="4"
+                    android:gravity="top"
+                    android:hint="Sapratate by /" />
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                android:id="@+id/button5"
+                android:onClick="clickSaveBoatOut" />
+        </LinearLayout>
+    </ScrollView>
 </RelativeLayout>
