@@ -39,6 +39,7 @@ public class AddBoat extends AppCompatActivity {
                 android.R.layout.simple_list_item_1, typeBoatStrings);
         spinner.setAdapter(stringArrayAdapter);
 
+
     }   // createSpinner
 
     private void bindWidget() {
