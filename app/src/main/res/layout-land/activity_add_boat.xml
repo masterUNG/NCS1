@@ -323,21 +323,24 @@
                     android:layout_height="wrap_content"
                     android:text="@string/addboat17"
                     android:id="@+id/button2"
-                    android:layout_weight="1" />
+                    android:layout_weight="1"
+                    android:onClick="clickSaveAddBoat" />
 
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/addboat18"
                     android:id="@+id/button3"
-                    android:layout_weight="1" />
+                    android:layout_weight="1"
+                    android:onClick="clickEditAddBoat" />
 
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/addboat19"
                     android:id="@+id/button4"
-                    android:layout_weight="1" />
+                    android:layout_weight="1"
+                    android:onClick="clickDeleteAddBoat" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
