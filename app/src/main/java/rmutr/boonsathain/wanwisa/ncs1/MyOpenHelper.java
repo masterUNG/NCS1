@@ -20,6 +20,24 @@ public class MyOpenHelper extends SQLiteOpenHelper{
             "Name text," +
             "Surname text);";
 
+    private static final String create_boat_table = "create table boatTABLE (" +
+            "_id integer primary key, " +
+            "data2 text," +
+            "data3 text," +
+            "data4 text," +
+            "data5 text," +
+            "data6 text," +
+            "data7 text," +
+            "data8 text," +
+            "data9 text," +
+            "data10 text," +
+            "data11 text," +
+            "data12 text," +
+            "data13 text," +
+            "data14 text," +
+            "data15 text," +
+            "data16 text);";
+
     public MyOpenHelper(Context context) {
         super(context, database_name, null, database_version);
     }   // Constructor
@@ -27,6 +45,7 @@ public class MyOpenHelper extends SQLiteOpenHelper{
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
         sqLiteDatabase.execSQL(create_user_table);
+        sqLiteDatabase.execSQL(create_boat_table);
     }
 
     @Override
