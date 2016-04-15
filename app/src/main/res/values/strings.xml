@@ -8,4 +8,26 @@
     <string name="hub3">ตรวจสอบ</string>
     <string name="hub4">เพิ่มข้อมูล</string>
 
+    <!--for Add Boat-->
+    <string name="addboat1">เพิ่มข้อมูล</string>
+    <string name="addboat2">ชื่อเรือ</string>
+    <string name="addboat3">ทะเบียนเรือ เลขที่</string>
+    <string name="addboat4">ขนาด</string>
+    <string name="addboat5">ชื่อเจ้าของเรือ</string>
+    <string name="addboat6">เลขประจำตัวเจ้าของเรือ</string>
+    <string name="addboat7">ที่อยู่ เจ้าของเรือ</string>
+    <string name="addboat8">เบอร์โทร เจ้าของเรือ</string>
+    <string name="addboat9">ชื่อไต้ก๋งเรือ</string>
+    <string name="addboat10">เลขประจำตัว ไต้ก๋งเรือ</string>
+    <string name="addboat11">ประกาศณียบัตรผู้ควบคุมเรือ</string>
+    <string name="addboat12">เลขที่</string>
+    <string name="addboat13">ออกให้ ณ</string>
+    <string name="addboat14">วันออกบัตร</string>
+    <string name="addboat15">วันหมดอายุ</string>
+    <string name="addboat16">ประเภทเรือประมง</string>
+    <string name="addboat17">บันทึก</string>
+    <string name="addboat18">แก้ไข</string>
+    <string name="addboat19">ลบ</string>
+    <string name="recordby">ผู้บันทึก</string>
+
 </resources>

@@ -21,7 +21,8 @@
         </activity>
         <activity
             android:name=".HubService"
-            android:screenOrientation="landscape"></activity>
+            android:screenOrientation="landscape" />
+        <activity android:name=".AddBoat" android:screenOrientation="landscape"></activity>
     </application>
 
 </manifest>

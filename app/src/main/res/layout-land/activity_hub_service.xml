@@ -106,7 +106,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView5"
                 android:layout_weight="1"
-                android:src="@drawable/red" />
+                android:src="@drawable/red"
+                android:onClick="clickAddBoat" />
         </LinearLayout>
 
         <LinearLayout
