@@ -8,6 +8,30 @@
     <string name="hub3">ตรวจสอบ</string>
     <string name="hub4">เพิ่มข้อมูล</string>
 
+    <!--เรือออก-->
+    <string name="boatout1">แจ้งออก</string>
+    <string name="boatout2">ชื่อเรือ</string>
+    <string name="boatout3">ขนาด</string>
+    <string name="boatout4">ตันกรอส</string>
+    <string name="boatout5">ใบอนุญาตใช้เครื่องมือ / อาชญาบัตร</string>
+    <string name="boatout6">ท่าที่คาดว่าจะเข้า</string>
+    <string name="boatout7">ประเภทเครื่องมือ</string>
+    <string name="boatout8">อุปกรณ์ประจำเรือ</string>
+    <string name="boatout9">ระบบติดตามเรือ vms ยี่ห้อ</string>
+    <string name="boatout10">รุ่น</string>
+    <string name="boatout11">หมายเลขเครื่อง</string>
+    <string name="boatout12">วิทยุสื่อสาร ความถี่</string>
+    <string name="boatout13">หมายเลขเครื่อง</string>
+    <string name="boatout14">ชื่อเจ้าของเรือ</string>
+    <string name="boatout15">หมายเลขบัตร</string>
+    <string name="boatout16">ผู้ควบคุมเรือ</string>
+    <string name="boatout17">หมายเลขบัตร</string>
+    <string name="boatout18">รายชื่อคนประจำเรือ</string>
+    <string name="boatout19">บันทึก</string>
+    <string name="boatout20">ส่งรายงาน</string>
+    <string name="boatout21">โทร</string>
+
+
     <!--for Add Boat-->
     <string name="addboat1">เพิ่มข้อมูล</string>
     <string name="addboat2">ชื่อเรือ</string>

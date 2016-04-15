@@ -52,14 +52,16 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView2"
                 android:layout_weight="1"
-                android:src="@drawable/green" />
+                android:src="@drawable/green"
+                android:onClick="clickBoatIn" />
 
             <ImageView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView3"
                 android:layout_weight="1"
-                android:src="@drawable/blue" />
+                android:src="@drawable/blue"
+                android:onClick="clickBoatOut" />
         </LinearLayout>
 
         <LinearLayout
@@ -99,7 +101,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView4"
                 android:layout_weight="1"
-                android:src="@drawable/orange" />
+                android:src="@drawable/orange"
+                android:onClick="clickBoatCheck" />
 
             <ImageView
                 android:layout_width="0dp"

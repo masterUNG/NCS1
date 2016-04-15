@@ -37,6 +37,22 @@ public class HubService extends AppCompatActivity {
 
     }   // Main Method
 
+    public void clickBoatCheck(View view) {
+        Intent intent = new Intent(HubService.this, BoatCheck.class);
+        startActivity(intent);
+    }
+
+    public void clickBoatIn(View view) {
+        Intent intent = new Intent(HubService.this, BoatIn.class);
+        startActivity(intent);
+    }
+
+    public void clickBoatOut(View view) {
+        Intent intent = new Intent(HubService.this, BoatOut.class);
+        startActivity(intent);
+    }
+
+
     public void clickAddBoat(View view) {
         Intent intent = new Intent(HubService.this, AddBoat.class);
         startActivity(intent);
