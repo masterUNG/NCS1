@@ -7,6 +7,338 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="rmutr.boonsathain.wanwisa.ncs1.AddBoat">
+    tools:context="rmutr.boonsathain.wanwisa.ncs1.AddBoat"
+    android:background="@drawable/wall2">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:background="#9bffffff">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/addboat1"
+                android:id="@+id/textView11"
+                android:layout_gravity="center_horizontal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold"
+                android:textColor="@color/text" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/addboat2"
+                    android:id="@+id/textView9"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText3"
+                    android:layout_weight="2"
+                    android:textColor="@color/text" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/addboat3"
+                    android:id="@+id/textView10"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="2"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText4"
+                    android:layout_weight="2"
+                    android:textColor="@color/text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/addboat4"
+                    android:id="@+id/textView12"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText5"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/addboat5"
+                    android:id="@+id/textView13"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="2"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText6"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/addboat6"
+                    android:id="@+id/textView14"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="3"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText7"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/addboat7"
+                    android:id="@+id/textView15"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="2"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText8"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/addboat8"
+                    android:id="@+id/textView16"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="2"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText9"
+                    android:layout_weight="2"
+                    android:textColor="@color/text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/addboat9"
+                    android:id="@+id/textView17"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="2"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText10"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/addboat10"
+                    android:id="@+id/textView18"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="3"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText11"
+                    android:layout_weight="2"
+                    android:textColor="@color/text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/addboat11"
+                    android:id="@+id/textView19"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="4"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText12"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/addboat12"
+                    android:id="@+id/textView20"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText13"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/addboat13"
+                    android:id="@+id/textView21"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText14"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/addboat14"
+                    android:id="@+id/textView22"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="2"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText15"
+                    android:layout_weight="2"
+                    android:textColor="@color/text" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/addboat15"
+                    android:id="@+id/textView23"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="2"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText16"
+                    android:layout_weight="2"
+                    android:textColor="@color/text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/addboat16"
+                    android:id="@+id/textView24"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+
+                <Spinner
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinner"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/addboat17"
+                    android:id="@+id/button2"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/addboat18"
+                    android:id="@+id/button3"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/addboat19"
+                    android:id="@+id/button4"
+                    android:layout_weight="1" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
 </RelativeLayout>
