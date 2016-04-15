@@ -7,7 +7,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="rmutr.boonsathain.wanwisa.ncs1.HubService">
+    tools:context="rmutr.boonsathain.wanwisa.ncs1.HubService"
+    android:background="@drawable/wall2">
 
     <LinearLayout
         android:orientation="vertical"
@@ -93,14 +94,14 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView4"
                 android:layout_weight="1"
-                android:src="@drawable/green" />
+                android:src="@drawable/orange" />
 
             <ImageView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView5"
                 android:layout_weight="1"
-                android:src="@drawable/blue" />
+                android:src="@drawable/red" />
         </LinearLayout>
 
         <LinearLayout

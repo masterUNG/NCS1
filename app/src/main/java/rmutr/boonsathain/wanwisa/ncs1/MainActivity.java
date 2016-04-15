@@ -153,6 +153,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this, HubService.class);
                 intent.putExtra("Name", resultStrings[4]);
                 intent.putExtra("Surname", resultStrings[5]);
+                intent.putExtra("Status", resultStrings[3]);
                 startActivity(intent);
                 finish();
 
