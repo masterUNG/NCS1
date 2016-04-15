@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="typeboat">
+
+        <item>ประมงทะเล</item>
+        <item>ประมงทะเลลึก</item>
+        <item>เรือบรรทุกสินค้าประมงทะเลห้องเย็น</item>
+        <item>อื่นๆ</item>
+
+    </string-array>
+
+</resources>

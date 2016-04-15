@@ -3,7 +3,9 @@ package rmutr.boonsathain.wanwisa.ncs1;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.EditText;
+import android.widget.Spinner;
 
 public class AddBoat extends AppCompatActivity {
 
@@ -15,6 +17,7 @@ public class AddBoat extends AppCompatActivity {
     private String data2String, data3String, data4String, data5String, data6String,
             data7String, data8String, data9String, data10String, data11String, data12String,
             data13String, data14String, data15String, data16String;
+    private Spinner spinner;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +27,19 @@ public class AddBoat extends AppCompatActivity {
         //Bind Widget
         bindWidget();
 
+        //Create Spinner
+        createSpinner();
+
     }   // Main Method
+
+    private void createSpinner() {
+
+        String[] typeBoatStrings = getResources().getStringArray(R.array.typeboat);
+        ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(this,
+                android.R.layout.simple_list_item_1, typeBoatStrings);
+        spinner.setAdapter(stringArrayAdapter);
+
+    }   // createSpinner
 
     private void bindWidget() {
 
@@ -42,6 +57,7 @@ public class AddBoat extends AppCompatActivity {
         data13EditText = (EditText) findViewById(R.id.editText14);
         data14EditText = (EditText) findViewById(R.id.editText15);
         data15EditText = (EditText) findViewById(R.id.editText16);
+        spinner = (Spinner) findViewById(R.id.spinner);
 
     }   // bindWidget
 
