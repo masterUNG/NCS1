@@ -1,8 +1,8 @@
 package rmutr.boonsathain.wanwisa.ncs1;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -11,7 +11,7 @@ public class HubService extends AppCompatActivity {
 
     //Explicit
     private ImageView hub4ImageView;
-    private TextView hub4TextView;
+    private TextView hub4TextView, showNameTextView;
     private String nameString, surnameString, statusString;
 
     @Override
@@ -22,9 +22,18 @@ public class HubService extends AppCompatActivity {
         //Bind Widget
         hub4ImageView = (ImageView) findViewById(R.id.imageView5);
         hub4TextView = (TextView) findViewById(R.id.textView8);
+        showNameTextView = (TextView) findViewById(R.id.textView4);
+
 
         //Check Status
         checkStatus();
+
+        //Show View
+        nameString = getIntent().getStringExtra("Name");
+        surnameString = getIntent().getStringExtra("Surname");
+        showNameTextView.setText(nameString + " " + surnameString);
+
+
 
     }   // Main Method
 
